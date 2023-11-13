@@ -1,0 +1,87 @@
+.contact {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  /* margin: 1rem 0; */
+  background-color: antiquewhite;
+}
+
+.contact .container {
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+}
+
+.contact .contact-col-1 {
+  flex: 1 0 45%;
+  padding: 5rem 2rem;
+}
+.contact .contact-col-1 h2 {
+  font-size: 30px;
+  padding: 0.4rem 0;
+}
+
+.contact .contact-col-1 .address {
+  padding: 1rem 0;
+}
+
+.contact .contact-col-1 .icons {
+  padding: 0.4rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.contact .contact-col-2 {
+  flex: 1 0 55%;
+  padding: 2rem 2rem;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact form input {
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #d1cdcd;
+}
+
+.contact form textarea {
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  border: 1px solid #d1cdcd;
+  font-family: "Montserrat", sans-serif;
+}
+.contact form .cheeckbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+.contact .cheeckbox input {
+  padding-right: 4px;
+  margin: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .contact {
+    margin: 1rem 0;
+    height: 150vh;
+  }
+  .contact .container {
+    flex-direction: column;
+  }
+
+  .contact .contact-col-1 {
+    padding: 0 1rem;
+  }
+  .contact .contact-col-2 {
+    padding: 1rem;
+  }
+}

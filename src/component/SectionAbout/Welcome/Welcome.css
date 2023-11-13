@@ -1,0 +1,66 @@
+.welcome {
+  width: 100%;
+  height: 100vh;
+  background-color: #8d7979;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+  padding: 5rem 4rem;
+}
+
+.welcome h1 {
+  margin-top: 2rem;
+  font-size: 40px;
+  font-weight: 400;
+}
+.welcome-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.welcome-content .welcome-row {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.welcome-content .welcome-row .welcome-col {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 400px;
+}
+.welcome-logo img {
+  width: 30px;
+  height: auto;
+}
+
+.welcome-content .welcome-row .welcome-col .logo-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: left;
+}
+
+.logo-content p:nth-of-type(1) {
+  font-size: 1.2rem;
+}
+
+.logo-content p:nth-of-type(2) {
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 940px) {
+  .welcome {
+    padding: 5rem 2rem;
+    height: 180vh;
+  }
+  .welcome-content .welcome-row {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,13 +1,40 @@
-body {
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --primary: #6948ff;
+  --secondary: #553bcb;
+  --darkgrey: #22262a;
+  --lightgrey: #d3d3d3;
+  --grey: #808080;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slide>div{
+  margin: 0 10px;
 }

@@ -1,0 +1,35 @@
+.challenges {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2rem 6rem;
+}
+.challenges p {
+  width: 300px;
+  line-height: 2rem;
+  text-align: justify;
+}
+.challenges span {
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+  color: rgb(19, 98, 133);
+}
+.challenge-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.challenge-logo img {
+  width: 400px;
+  height: 400px;
+}
+.challenge-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,22 @@
+.welcome-p {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: url("../../../assets/projects-img.png") no-repeat center
+    center/cover;
+}
+
+.welcome-p span {
+  font-size: 35px;
+  font-weight: 400;
+}
+.welcome-p p {
+  width: 800px;
+  text-align: center;
+  margin-top: 1.5rem;
+  color: yellow;
+}
